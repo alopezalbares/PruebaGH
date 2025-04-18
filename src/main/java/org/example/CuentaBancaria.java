@@ -22,7 +22,7 @@ public class CuentaBancaria {
      */
     public void depositar(double cantidad) {
         if (cantidad > 0) {
-            saldo = saldo + cantidad;
+            saldo += cantidad;
         }
     }
 
