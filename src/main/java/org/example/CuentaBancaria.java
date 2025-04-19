@@ -22,7 +22,7 @@ public class CuentaBancaria {
      */
     public void depositar(double cantidad) {
         if (cantidad > 0) {
-            saldo += cantidad; // Cambio en EjemploRamaEnGH
+            saldo += cantidad; // Cambio rama master repositorio IJ
         }
     }
 
