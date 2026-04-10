@@ -12,7 +12,7 @@ public class CuentaBancaria {
     // Cambio en GH
     public void depositar(double cantidad) {
         if (cantidad > 0) {
-            saldo += cantidad;
+            saldo = saldo + cantidad;
         }
     }
 
